@@ -1,0 +1,239 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  background-color: #2B2B2B;
+  color: #FEFEFE;
+  display: flex;
+}
+
+/* Left Side */
+.login .leftSide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login .leftSide .headerContainer {
+  width: 100%;
+  height: 100px;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+
+.login .leftSide .loginArea {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .leftSide .loginArea .loginContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.login .leftSide .loginArea .loginContent .mainPhrase {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.login .leftSide .loginArea .loginContent .subPhrase {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(254, 254, 254, 0.5);
+  margin-bottom: 32px;
+  font-family: 'Raleway';
+}
+
+/* Input's Area */
+.login .leftSide .loginArea .loginContent .inputsArea {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Email Input */
+.login .leftSide .loginArea .loginContent .inputsArea .mailInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.login .leftSide .loginArea .loginContent .inputsArea .mailInput strong {
+  font-family: 'Raleway';
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.login .leftSide .loginArea .loginContent .inputsArea .mailInput input {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  color: #FEFEFE;
+  outline: none;
+  font-size: 18px;
+}
+
+/* Password Input */
+.login .leftSide .loginArea .loginContent .inputsArea .passwordInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.login .leftSide .loginArea .loginContent .inputsArea .passwordInput strong {
+  font-family: 'Raleway';
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.login .leftSide .loginArea .loginContent .inputsArea .passwordInput input {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  color: #FEFEFE;
+  outline: none;
+  font-size: 18px;
+}
+
+/* Small Area */
+.login .leftSide .loginArea .loginContent .smallArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.login .leftSide .loginArea .loginContent .smallArea .checkBox {
+  display: flex;
+  align-items: center;
+}
+
+.login .leftSide .loginArea .loginContent .smallArea .checkBox input {
+  margin-right: 8px;
+  -webkit-appearance: none;
+  width: 1rem;
+  height: 1.20em;
+  border: 1px solid rgba(215, 215, 215, 0.1);
+  border-radius: 3px;
+  vertical-align: sub;
+  outline: none;
+}
+
+.login .leftSide .loginArea .loginContent .smallArea .checkBox input:checked {
+  background-color: hsl(0, 0%, 40%);
+  border-color: hsl(0, 0%, 40%);
+}
+
+.login .leftSide .loginArea .loginContent .smallArea .recoveryPassword a {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #FEFEFE;
+}
+
+.login .leftSide .loginArea .loginContent .smallArea .recoveryPassword a:hover {
+  opacity: 0.6;
+}
+
+/* Buttons - Area */
+.login .leftSide .loginArea .loginContent .buttonArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Login Button */
+.login .leftSide .loginArea .loginContent .buttonArea .loginButton {
+  height: 48px;
+  padding: 12px 24px;
+  background: #652EBE;
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  gap: 8px;
+  border: 0;
+  outline: 0;
+  color: #FEFEFE;
+  font-size: 18px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.login .leftSide .loginArea .loginContent .buttonArea .loginButton:hover {
+  opacity: 0.8;
+}
+
+/* Login Google Button */
+.login .leftSide .loginArea .loginContent .buttonArea .loginGoogleButton {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  gap: 8px;
+  border: 0;
+  outline: 0;
+  color: #FEFEFE;
+  font-size: 18px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.login .leftSide .loginArea .loginContent .buttonArea .loginGoogleButton:hover {
+  opacity: 0.8;
+}
+
+.login .leftSide .loginArea .loginContent .buttonArea .signUpLink {
+  text-align: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FEFEFE;
+}
+
+.login .leftSide .loginArea .loginContent .buttonArea .signUpLink a {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FEFEFE;
+  text-decoration: none;
+}
+
+.login .leftSide .loginArea .loginContent .buttonArea .signUpLink a:hover {
+  opacity: 0.6;
+}
+
+/* Right Side */
+.login .rightSide {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .rightSide .image {
+  width: 88%;
+}
